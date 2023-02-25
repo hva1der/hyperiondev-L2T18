@@ -1,0 +1,31 @@
+// Array of alphabet letters
+const newAlphabet = [
+  { id: 1, name: "A", class: "new" },
+  { id: 2, name: "B", class: "new" },
+  { id: 3, name: "C", class: "new" },
+  { id: 4, name: "D", class: "new" },
+  { id: 5, name: "E", class: "new" },
+  { id: 6, name: "F", class: "new" },
+  { id: 7, name: "G", class: "new" },
+  { id: 8, name: "H", class: "new" },
+  { id: 9, name: "I", class: "new" },
+  { id: 10, name: "J", class: "new" },
+  { id: 11, name: "K", class: "new" },
+  { id: 12, name: "L", class: "new" },
+  { id: 13, name: "M", class: "new" },
+  { id: 14, name: "N", class: "new" },
+  { id: 15, name: "O", class: "new" },
+  { id: 16, name: "P", class: "new" },
+  { id: 17, name: "Q", class: "new" },
+  { id: 18, name: "R", class: "new" },
+  { id: 19, name: "S", class: "new" },
+  { id: 20, name: "T", class: "new" },
+  { id: 21, name: "U", class: "new" },
+  { id: 22, name: "V", class: "new" },
+  { id: 23, name: "W", class: "new" },
+  { id: 24, name: "X", class: "new" },
+  { id: 25, name: "Y", class: "new" },
+  { id: 26, name: "Z", class: "new" },
+];
+
+export { newAlphabet };

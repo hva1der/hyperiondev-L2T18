@@ -1,38 +1,46 @@
+
+/* It's rustic, blackboard style game, so I went with very simple styling. I think this is how this game should look.  */
+
 .App {
   text-align: center;
+  padding-top: 5vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Hangman pictures */
+.hung {
+  padding-top: 5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Alphabet buttons */
+button {
+  margin-right: 1vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wrong {
+  background-color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.correct {
+  background-color: greenyellow; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Win/lose message */
+h2.winner {
+  color: green;
+}
+
+h2.loser {
+  color: red;
+}
+
+/* Help section */
+button.help {
+  margin-bottom: 5vh;
+}
+
+ul {
+  list-style-type: none;
+}
+ul.hide {
+  display: none;
 }
